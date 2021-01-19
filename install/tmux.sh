@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 apt install tmux xclip -y
 rm -rf ${HOME}/.tmux*
