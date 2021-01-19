@@ -100,3 +100,15 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Resolve DOTFILES_DIR
+if [ -d "$HOME/.dotfiles" ]; then
+    DOTFILES_DIR="$HOME/.dotfiles"
+else
+    echo "Unable to find dotfiles, exiting..."
+    return
+fi
+# Source dotfiles
+for DOTFILE in "$DOTFILES_DIR"/system/.*; do
+    [ -f "$DOTFILE" ] && . "$DOTFILE"
+done
