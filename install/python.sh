@@ -13,3 +13,5 @@ ZSH_CUSTOM="$ZSH/custom"
 # Python3 (pip + venv)
 sudo apt install python3-pip -y
 sudo python3 -m pip install --upgrade pip
+
+colorecho 'Finished Installing Enviroment Soft'
