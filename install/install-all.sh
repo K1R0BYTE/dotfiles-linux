@@ -16,5 +16,8 @@ bash zsh.sh
 # Tmux
 bash tmux.sh
 
+# Wordlists
+bash wordlists.sh
+
 # Pentest
 bash pentest-soft.sh
