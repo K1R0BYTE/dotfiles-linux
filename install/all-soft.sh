@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-
 # OS
 bash basic-soft.sh
 
@@ -13,8 +12,6 @@ bash zsh.sh
 
 # Tmux
 bash tmux.sh
-
-ln -sv ${HOME}/.dotfiles/configs/.dircolors ${HOME}/.dircolors
 
 # Pentest
 bash pentest.sh
