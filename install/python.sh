@@ -11,5 +11,5 @@ ZSH="${HOME}/.oh-my-zsh"
 ZSH_CUSTOM="$ZSH/custom"
 
 # Python3 (pip + venv)
-apt install python3-pip -y
-python3 -m pip install --upgrade pip
+sudo apt install python3-pip -y
+sudo python3 -m pip install --upgrade pip
