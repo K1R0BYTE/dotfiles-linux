@@ -12,7 +12,7 @@ colorecho 'Starting Installing System Soft'
 #sudo apt update
 #sudo apt install snapd -y
 #sudo snap install core
-sudo apt install make gcc
+sudo apt install make gcc -y
 
 colorecho 'Finished Installing System Soft'
 
