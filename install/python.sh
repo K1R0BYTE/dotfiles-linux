@@ -13,4 +13,7 @@ colorecho 'Starting Installing Enviroment Soft'
 sudo apt install python3-pip -y
 sudo python3 -m pip install --upgrade pip
 
+# Libs
+sudo python3 -m pip install requests
+
 colorecho 'Finished Installing Enviroment Soft'
