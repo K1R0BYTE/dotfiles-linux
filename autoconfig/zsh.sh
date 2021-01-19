@@ -16,7 +16,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM}/plugins
 git clone https://github.com/jimeh/zsh-peco-history.git ${ZSH_CUSTOM}/plugins/zsh-peco-history
 
 rm ${HOME}/.zshrc
-git clone 
+git clone https://github.com/K1R0BYTE/dotfiles-linux.git ${HOME}/.dotfiles
 ln -sv ${HOME}/.dotfiles/zsh/.zshrc ${HOME}/.zshrc
 
 sudo chsh -s `which zsh`
