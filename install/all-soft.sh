@@ -14,4 +14,4 @@ bash zsh.sh
 bash tmux.sh
 
 # Pentest
-bash pentest.sh
+bash pentest-soft.sh
