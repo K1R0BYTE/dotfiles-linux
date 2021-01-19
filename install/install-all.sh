@@ -21,3 +21,6 @@ bash wordlists.sh
 
 # Pentest
 bash pentest-soft.sh
+
+# Remote GUI
+bash remote-gui.sh
