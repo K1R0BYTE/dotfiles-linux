@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 
 
-# OS Soft
+# OS
 bash basic-soft.sh
 
-# Env Soft
+# Enviroment
 bash python.sh
+bash go.sh
 
 # Zsh
 bash zsh.sh
@@ -13,4 +14,7 @@ bash zsh.sh
 # Tmux
 bash tmux.sh
 
-ln -sv ${HOME}/.dotfiles/.configs/.dircolors ${HOME}/.dircolors
+ln -sv ${HOME}/.dotfiles/configs/.dircolors ${HOME}/.dircolors
+
+# Pentest
+bash pentest.sh
