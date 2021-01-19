@@ -10,7 +10,7 @@ colorecho() {
 colorecho 'Starting Installing System Soft'
 
 sudo apt update
-sudo apt install snapd
+sudo apt install snapd -y
 sudo snap install core
 
 colorecho 'Finished Installing System Soft'
@@ -18,6 +18,6 @@ colorecho 'Finished Installing System Soft'
 colorecho 'Starting Configuring System'
 
 sudo chown ${USER}:${USER} /opt
-ln -sv ${HOME}/.dotfiles/configs/wsl.conf /etc/wsl.conf
+sudo ln -sv ${HOME}/.dotfiles/configs/wsl.conf /etc/wsl.conf
 
 colorecho 'Finished Configuring System'
