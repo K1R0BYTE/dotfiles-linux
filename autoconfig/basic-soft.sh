@@ -2,4 +2,4 @@
 
 apt update
 
-apt install git vim tmux -y
+apt install git vim wget -y
