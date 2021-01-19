@@ -9,9 +9,9 @@ colorecho() {
 
 colorecho 'Starting Installing System Soft'
 
-sudo apt update
-sudo apt install snapd -y
-sudo snap install core
+#sudo apt update
+#sudo apt install snapd -y
+#sudo snap install core
 
 colorecho 'Finished Installing System Soft'
 
