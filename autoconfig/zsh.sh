@@ -14,3 +14,11 @@ sudo apt install zsh -y && sh -c "$(curl -fsSL https://raw.githubusercontent.com
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM}/plugins/zsh-autosuggestions
 git clone https://github.com/jimeh/zsh-peco-history.git ${ZSH_CUSTOM}/plugins/zsh-peco-history
+
+rm ${HOME}/.zshrc
+git clone 
+ln -sv ${HOME}/.dotfiles/zsh/.zshrc ${HOME}/.zshrc
+
+sudo chsh -s `which zsh`
+
+colorecho 'Re-login'
