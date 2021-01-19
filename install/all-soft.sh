@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
-# OS
+# System
+bash system.sh
+
+# Basic
 bash basic-soft.sh
 
 # Enviroment
