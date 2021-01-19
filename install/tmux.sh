@@ -7,6 +7,8 @@ colorecho() {
 	echo -e "[*] ${RED}${1}${NOCOLOR}"
 }
 
+colorecho 'Starting Installing Basic Soft'
+
 sudo apt install tmux xclip -y
 rm -rf ${HOME}/.tmux*
 git clone "https://github.com/tmux-plugins/tpm" ${HOME}/.tmux/plugins/tpm
