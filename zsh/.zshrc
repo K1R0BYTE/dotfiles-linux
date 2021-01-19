@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/kali/.oh-my-zsh"
+export ZSH="${HOME}/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -11,16 +11,7 @@ export ZSH="/home/kali/.oh-my-zsh"
 ZSH_THEME="agnoster"
 eval `dircolors ~/.dircolors`
 
-export CDPATH=/home/kali/pentest:/opt/
-alias cdi='cd `ls | peco`'
-alias -g xcopy='xclip -selection clipboard'
-alias -g xpaste='xclip -selection clipboard -o'
-alias -g lsa='ls -lsah'
-alias -g mstcpcls='grep tcp | cut -d " " -f 3 | sort -u  | sed -z "s/\n/,/g"'
-alias -g msudpcls='grep udp | cut -d " " -f 3 | sort -u  | sed -z "s/\n/,/g"'
-alias -g eth='ip -4 addr show eth0 | grep -oP "(?<=inet\s)\d+(\.\d+){3}"'
-alias -g tun='ip -4 addr show tun0 | grep -oP "(?<=inet\s)\d+(\.\d+){3}"'
-alias -g mkalldir='mkdir nmap; mkdir webscan; mkdir findings'
+export CDPATH=${HOME}/pentest:/opt/
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
