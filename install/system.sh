@@ -18,5 +18,6 @@ colorecho 'Finished Installing System Soft'
 colorecho 'Starting Configuring System'
 
 sudo chown ${USER}:${USER} /opt
+ln -sv ${HOME}/.dotfiles/configs/wsl.conf /etc/wsl.conf
 
 colorecho 'Finished Configuring System'
