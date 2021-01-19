@@ -7,6 +7,8 @@ colorecho() {
 	echo -e "[*] ${RED}${1}${NOCOLOR}"
 }
 
+colorecho 'Starting Installing GoLang Soft'
+
 curl https://dl.google.com/go/go1.15.6.linux-amd64.tar.gz -o /tmp/go.tar.gz
 sudo tar -C /usr/local -xzf /tmp/go.tar.gz
 
