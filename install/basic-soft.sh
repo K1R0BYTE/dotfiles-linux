@@ -9,11 +9,6 @@ colorecho() {
 
 colorecho 'Starting Installing Basic Soft'
 
-sudo apt update && sudo apt install git vim wget curl -y
-
-curl https://github.com/peco/peco/releases/download/v0.2.0/peco_linux_amd64.tar.gz -o /tmp/peco.tar.gz
-cd /tmp
-tar -xvf peco.tar.gz
-sudo dpkg -i *.deb
+sudo apt update && sudo apt install git vim wget curl peco -y
 
 colorecho 'Finished Installing Basic Soft'
