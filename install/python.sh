@@ -7,8 +7,7 @@ colorecho() {
 	echo -e "[*] ${RED}${1}${NOCOLOR}"
 }
 
-ZSH="${HOME}/.oh-my-zsh"
-ZSH_CUSTOM="$ZSH/custom"
+colorecho 'Starting Installing Enviroment Soft'
 
 # Python3 (pip + venv)
 sudo apt install python3-pip -y
