@@ -9,7 +9,7 @@ git clone https://github.com/K1R0BYTE/hakpak.git ${HOME}/.hakpak && cd ${HOME}/.
 bash install-all.sh
 ```
 # Disk usage Statistics
-
+```
 Debian 10 ext4.vhdx disk size in KB
 
 293888 - fresh wsl dist
@@ -31,3 +31,4 @@ Debian 10 ext4.vhdx disk size in KB
 3800064 - pentest-soft
 
 4422656 - remote-gui
+```
