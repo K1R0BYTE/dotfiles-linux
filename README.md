@@ -1,11 +1,14 @@
 # hakpak
 
+# How to Install?
+```
 sudo apt update && sudo apt upgrade -y && sudo apt install git -y
 
 git clone https://github.com/K1R0BYTE/hakpak.git ${HOME}/.hakpak && cd ${HOME}/.hakpak/install
 
 bash install-all.sh
-
+```
+# Disk usage Statistics
 
 Debian 10 ext4.vhdx disk size in KB
 
