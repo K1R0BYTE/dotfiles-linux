@@ -18,13 +18,13 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM}/plugins
 git clone https://github.com/jimeh/zsh-peco-history.git ${ZSH_CUSTOM}/plugins/zsh-peco-history
 
 mv ${HOME}/.zshrc ${HOME}/.zshrc.bak
-ln -sv ${HOME}/.dotfiles/zsh/.zshrc ${HOME}/.zshrc
+ln -sv ${HOME}/.hakpak/zsh/.zshrc ${HOME}/.zshrc
 
 mv ${HOME}/.zsh_history ${HOME}/.zsh_history.bak
-ln -sv ${HOME}/.dotfiles/zsh/.zsh_history ${HOME}/.zsh_history
+ln -sv ${HOME}/.hakpak/zsh/.zsh_history ${HOME}/.zsh_history
 
 mv ${HOME}/.dircolors ${HOME}/.dircolors.bak
-ln -sv ${HOME}/.dotfiles/configs/.dircolors ${HOME}/.dircolors
+ln -sv ${HOME}/.hakpak/configs/.dircolors ${HOME}/.dircolors
 
 colorecho 'Finished Installing ZSH'
 colorecho 'Re-login'
