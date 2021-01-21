@@ -19,6 +19,6 @@ colorecho 'Finished Installing System Soft'
 colorecho 'Starting Configuring System'
 
 sudo chown ${USER}:${USER} /opt
-sudo ln -sv ${HOME}/.dotfiles/configs/wsl.conf /etc/wsl.conf
+sudo ln -sv ${HOME}/.hakpak/configs/wsl.conf /etc/wsl.conf
 
 colorecho 'Finished Configuring System'
