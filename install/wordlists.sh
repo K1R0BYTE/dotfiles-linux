@@ -9,6 +9,6 @@ colorecho() {
 
 colorecho 'Starting Installing Wordlists'
 
-sudo git clone "https://github.com/danielmiessler/SecLists.git" /opt/SecLists
+sudo git clone "https://github.com/danielmiessler/SecLists.git" /opt/seclists
 
 colorecho 'Finished Installing Wordlists'
