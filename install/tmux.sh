@@ -12,7 +12,7 @@ colorecho 'Starting Installing Basic Soft'
 sudo apt install tmux xclip -y
 rm -rf ${HOME}/.tmux*
 git clone "https://github.com/tmux-plugins/tpm" ${HOME}/.tmux/plugins/tpm
-ln -sv ${HOME}/.hakpak/tmux/.tmux.conf ${HOME}/.tmux.conf
+ln -sv ${HOME}/.hakpak/configs/tmux/.tmux.conf ${HOME}/.tmux.conf
 tmux source-file ${HOME}/.tmux.conf
 
 colorecho 'Finished Installing Basic Soft'
