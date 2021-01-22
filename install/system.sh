@@ -15,7 +15,7 @@ colorecho 'Finished Installing System Soft'
 
 colorecho 'Starting Installing Basic Soft'
 
-sudo apt update && sudo apt install git vim wget curl peco -y
+sudo apt update && sudo apt install git vim wget curl peco firefox-esr -y
 
 colorecho 'Finished Installing Basic Soft'
 
