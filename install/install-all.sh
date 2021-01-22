@@ -3,9 +3,6 @@
 # System
 bash system.sh
 
-# Basic
-bash basic-soft.sh
-
 # Enviroment
 bash python.sh
 bash go.sh

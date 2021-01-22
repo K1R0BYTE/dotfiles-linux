@@ -9,12 +9,15 @@ colorecho() {
 
 colorecho 'Starting Installing System Soft'
 
-#sudo apt update
-#sudo apt install snapd -y
-#sudo snap install core
-sudo apt install build-essential net-tools -y
+sudo apt install build-essential net-tools zip unzip p7zip-full -y
 
 colorecho 'Finished Installing System Soft'
+
+colorecho 'Starting Installing Basic Soft'
+
+sudo apt update && sudo apt install git vim wget curl peco -y
+
+colorecho 'Finished Installing Basic Soft'
 
 colorecho 'Starting Configuring System'
 
