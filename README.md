@@ -6,7 +6,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt install git -y
 
 git clone https://github.com/K1R0BYTE/hakpak.git ${HOME}/.hakpak && cd ${HOME}/.hakpak/install
 
-bash install-all.sh
+bash setup.sh
 ```
 # Disk usage Statistics
 ```
