@@ -9,13 +9,13 @@ colorecho() {
 
 colorecho 'Starting Installing System Soft'
 
-sudo apt install build-essential net-tools zip unzip p7zip-full -y
+sudo apt install build-essential net-tools -y
 
 colorecho 'Finished Installing System Soft'
 
 colorecho 'Starting Installing Basic Soft'
 
-sudo apt update && sudo apt install git vim wget curl peco firefox-esr -y
+sudo apt update && sudo apt install git vim wget curl peco firefox-esr zip unzip p7zip-full -y
 
 colorecho 'Finished Installing Basic Soft'
 
