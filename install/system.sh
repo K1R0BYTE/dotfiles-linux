@@ -9,19 +9,18 @@ colorecho() {
 
 colorecho 'Starting Installing System Soft'
 
-sudo apt install build-essential net-tools -y
+sudo apt install build-essential net-tools dnsutils -y
 
 colorecho 'Finished Installing System Soft'
 
 colorecho 'Starting Installing Basic Soft'
 
-sudo apt update && sudo apt install git vim wget curl peco firefox-esr zip unzip p7zip-full -y
+sudo apt update && sudo apt install git vim wget curl peco firefox-esr zip unzip p7zip-full guake -y
 
 colorecho 'Finished Installing Basic Soft'
 
 colorecho 'Starting Configuring System'
 
-sudo chown ${USER}:${USER} /opt
 sudo ln -sv ${HOME}/.hakpak/configs/wsl.conf /etc/wsl.conf
 
 colorecho 'Finished Configuring System'
