@@ -68,7 +68,7 @@ colorecho3 'Please select installation mode, choose 1 or 2 !\n'
 
         Manual)
 		
-        echo -e "${Red}Please choose packages to install"
+        echo -e "${Red}Open setup.sh and comment *.sh scripts))"
 		break
         ;;
 		esac
